@@ -1,4 +1,8 @@
 Library\Bee\artifacts\mvdfrm\Unity.Multiplayer.Center.Common.ref.dll_EE36537354EA42C8.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEditor.TestRunner.ref.dll_193EC4CE382CBFB3.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEditor.UI.ref.dll_4C98D3F7040CD4F5.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEngine.TestRunner.ref.dll_E55D0F7C63F01D9E.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEngine.UI.ref.dll_08FEAA520A2EFD60.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.Graphs.dll_8716FB65877E3E91.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.AccessibilityModule.dll_A431C89E72A5CFD2.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.AdaptivePerformanceModule.dll_63E2D6D65D91F15E.mvfrm
@@ -126,3 +130,8 @@ Library\Bee\artifacts\mvdfrm\UnityEngine.WindModule.dll_D7DF5D1FF2BDBCF3.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEngine.XRModule.dll_0ED2225FEC264455.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.WebGL.Extensions.dll_4C7D45B89678AEC1.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.WindowsStandalone.Extensions.dll_05538B8F6DFCBB31.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Analytics.StandardEvents.dll_95311E6DDF2FBAF5.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Analytics.Editor.dll_6CA7E7CCD2E7C359.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Analytics.Tracker.dll_F6024F6035B84248.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Plastic.Antlr3.Runtime.dll_DBEC993A42CC5066.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.Plastic.Newtonsoft.Json.dll_CE2A12158137BB6F.mvfrm
