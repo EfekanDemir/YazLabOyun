@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.2/staging' branch; Version is '6000.2.10f1 (d3d30d158480) revision 13882125'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-efeka" at "2025-10-31T13:54:06.0770027Z"
 OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 16110 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-efeka" at "2025-10-31T12:05:09.6355742Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2025-10-31T12:05:09Z
+Date: 2025-10-31T13:54:06Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.2.10f1\Editor\Unity.exe
@@ -17,7 +17,7 @@ C:/Users/efeka/OneDrive/Masaüstü/YazLabOyun
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-17588
+26893
 -licensingIpc
 LicenseClient-efeka
 -job-worker-count
@@ -65,35 +65,35 @@ C:/Users/efeka/OneDrive/Masaüstü/YazLabOyun
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24464]  Target information:
+Player connection [28076]  Target information:
 
-Player connection [24464]  * "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 2597969323 [EditorId] 2597969323 [Version] 1048832 [Id] WindowsEditor(7,D16) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [28076]  * "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 4144295850 [EditorId] 4144295850 [Version] 1048832 [Id] WindowsEditor(7,D16) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24464] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [24464] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28076] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28076] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-Library Redirect Path: Library/
 [Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 7296, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              57fbc6b6b9714bedb920e170da9281f3
+  Session Id:              e647630cffa4408ea4dc2a31ffb4e27c
   Correlation Id:          48321390268be0b4cfffeebae5f2cf3d
-  External correlation Id: 1637466932357738241
+  External correlation Id: 3293649871009197432
   Machine Id:              uITnpJ4/JupXkr8J3txyk3SWIdw=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-efeka" (connect: 0.00s, validation: 0.00s, handshake: 0.07s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-efeka-notifications" at "2025-10-31T12:05:09.7109084Z"
-[Licensing::Module] Licensing Background thread has ended after 0.08s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-efeka" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-efeka-notifications" at "2025-10-31T13:54:06.1424893Z"
+[Licensing::Module] Licensing Background thread has ended after 0.07s
+Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.81 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 7.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.2.10f1 (d3d30d158480)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Resources/UnitySubsystems
@@ -109,45 +109,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003318 seconds.
-- Loaded All Assemblies, in  0.478 seconds
+Registered in 0.002002 seconds.
+- Loaded All Assemblies, in  0.996 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.410 seconds
-Domain Reload Profiling: 886ms
-	BeginReloadAssembly (211ms)
+- Finished resetting the current domain, in  0.558 seconds
+Domain Reload Profiling: 1552ms
+	BeginReloadAssembly (597ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (58ms)
-	LoadAllAssembliesAndSetupDomain (160ms)
-		LoadAssemblies (207ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (252ms)
+		LoadAssemblies (590ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (156ms)
-			TypeCache.Refresh (154ms)
-				TypeCache.ScanAssembly (141ms)
+		AnalyzeDomain (248ms)
+			TypeCache.Refresh (245ms)
+				TypeCache.ScanAssembly (225ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (411ms)
+	FinalizeReload (559ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (372ms)
+		SetupLoadedEditorAssemblies (489ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (61ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (170ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
+			InitializePlatformSupportModulesInManaged (88ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -163,128 +163,56 @@ Begin MonoManager ReloadAssembly
   Type: Assigned
   Expiration: Unlimited
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.811 seconds
-Refreshing native plugins compatible for Editor in 4.69 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.988 seconds
+Refreshing native plugins compatible for Editor in 6.29 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 6.59 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 7.40 ms, found 2 plugins.
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.843 seconds
-Domain Reload Profiling: 1650ms
-	BeginReloadAssembly (199ms)
+- Finished resetting the current domain, in  0.830 seconds
+Domain Reload Profiling: 1813ms
+	BeginReloadAssembly (278ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (21ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (56ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (488ms)
-		LoadAssemblies (452ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (566ms)
+		LoadAssemblies (496ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (146ms)
-			TypeCache.Refresh (114ms)
-				TypeCache.ScanAssembly (96ms)
-			BuildScriptInfoCaches (27ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (844ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (133ms)
+			BuildScriptInfoCaches (46ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (830ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (726ms)
+		SetupLoadedEditorAssemblies (701ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (182ms)
-			ProcessInitializeOnLoadAttributes (345ms)
-			ProcessInitializeOnLoadMethodAttributes (186ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (127ms)
+			ProcessInitializeOnLoadAttributes (369ms)
+			ProcessInitializeOnLoadMethodAttributes (190ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 8.93 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 4.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2924 unused Assets / (1.0 MB). Loaded Objects now: 3395.
-Memory consumption went from 78.9 MB to 77.9 MB.
-Total: 11.759700 ms (FindLiveObjects: 0.543500 ms CreateObjectMapping: 0.244200 ms MarkObjects: 9.618200 ms  DeleteObjects: 1.352300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 68852.343140 seconds.
-  path: Assets/Same Gev Dudios/Sci-Fi Robots Bundle/Textures/Robert/Robert Base Color.png
-  artifactKey: Guid(f1d7c3a4b6bf2a14dbcbe31667f611ce) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Same Gev Dudios/Sci-Fi Robots Bundle/Textures/Robert/Robert Base Color.png using Guid(f1d7c3a4b6bf2a14dbcbe31667f611ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ab3b115e966e39fafeb72904444822e3') in 0.1799875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Settings/PC_RPAsset.asset
-  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ccb44a83781e16d65fe0dd192581e291') in 0.026749 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Same Gev Dudios/Sci-Fi Robots Bundle/Materials/SRP/Paperman.mat
-  artifactKey: Guid(be9dc2fd585ff0a46aa34cf6aa35592d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Same Gev Dudios/Sci-Fi Robots Bundle/Materials/SRP/Paperman.mat using Guid(be9dc2fd585ff0a46aa34cf6aa35592d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f5ec69e83c4e9bad5e1446bd356e351c') in 0.0820827 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Same Gev Dudios/Sci-Fi Robots Bundle/Materials/SRP/Catherine.mat
-  artifactKey: Guid(d9642228e7274194380a0c5530abee28) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Same Gev Dudios/Sci-Fi Robots Bundle/Materials/SRP/Catherine.mat using Guid(d9642228e7274194380a0c5530abee28) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6c3cce2b075e60de8747dcf7b777784') in 0.0285226 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Settings/Mobile_RPAsset.asset
-  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc1b4c478d6b024414beb4574a29152f') in 0.0246129 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Settings/Mobile_Renderer.asset
-  artifactKey: Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Settings/Mobile_Renderer.asset using Guid(65bc7dbf4170f435aa868c779acfb082) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '202c2131357ebef1918e6d44ca76adfb') in 0.0217773 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Same Gev Dudios/Sci-Fi Robots Bundle/Materials/SRP/Engie.mat
-  artifactKey: Guid(7a36509ebabb0ef40b9c5194eadf8229) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Same Gev Dudios/Sci-Fi Robots Bundle/Materials/SRP/Engie.mat using Guid(7a36509ebabb0ef40b9c5194eadf8229) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5e411a20ffdf9d0346d3709ea178aef') in 0.0277455 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Same Gev Dudios/Sci-Fi Robots Bundle/Textures/Robert/Robert Emission.png
-  artifactKey: Guid(ec417c21d7eece848bbc0fe6562870b8) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Same Gev Dudios/Sci-Fi Robots Bundle/Textures/Robert/Robert Emission.png using Guid(ec417c21d7eece848bbc0fe6562870b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b35a6a2322b21ec4bd63b7dcdc35bd59') in 0.0378746 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Same Gev Dudios/Sci-Fi Robots Bundle/Models/Robert.fbx
-  artifactKey: Guid(c31501b18d95d82419dad970a9527842) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Same Gev Dudios/Sci-Fi Robots Bundle/Models/Robert.fbx using Guid(c31501b18d95d82419dad970a9527842) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4925802c7f26346a8310b53a25734fee') in 0.0826162 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+Unloading 2926 unused Assets / (1.0 MB). Loaded Objects now: 3398.
+Memory consumption went from 79.1 MB to 78.1 MB.
+Total: 9.305300 ms (FindLiveObjects: 0.287200 ms CreateObjectMapping: 0.205300 ms MarkObjects: 7.897400 ms  DeleteObjects: 0.914100 ms)
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
